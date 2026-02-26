@@ -17,32 +17,36 @@
 <!-- WRAP CONTENT IN VALIDATED, SEMANTIC HTML5 (SEE HINTS FOLDER LINKED TO IN THE CANVAS INSTRUCTIONS)-->
     <header>
         <h1>Vaanguard</h1>
-        <!--Main Navigation-->
         <nav>
+            <h2>Main Navigation</h2>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle"><span></span></label>
             <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <section id="hero">
-            <h2>Innovation &amp; Investment</h2>
-            <p>We empower businesses to lead the future with high-impact strategies, 
-                market intelligence, and financial solutions that drive success.</p>
-            <a href="#">Request a Consultation</a>
+            <div class="container">
+                <h2>Innovation &amp; Investment</h2>
+                <p>We empower businesses to lead the future with high-impact strategies, 
+                    market intelligence, and financial solutions that drive success.</p>
+                <a href="#contact">Request a Consultation</a>
+            </div>
         </section>
 
-        <section id="intro">
+        <section id="about">
             <h2>Our Expertise. Your Edge.</h2>
             <p>We redefine success by leveraging AI-driven analytics, market intelligence, 
             and high-yield investment strategies to propel businesses forward. Whether you&apos;re 
             looking to scale, optimize, or dominate, our strategic expertise delivers results.</p>
         </section>
 
-        <section id="offer">
+        <section id="services">
             <h2>What We Offer</h2>
 
             <div>
@@ -145,26 +149,29 @@
         </section>
 
         <footer>
-            <h2>Contact Us</h2>
-            <p>Want to take your business to the next level&quest; Get in touch with our elite team today.</p>
-            <form action="#" method="POST" target="_blank">
-                <label for="full-name">Full Name</label>
-                <input type="text" name="full-name" id="full-name">
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <p>Want to take your business to the next level&quest; Get in touch with our elite team today.</p>
+                
+                <form action="#" method="POST" target="_blank">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" name="full-name" id="full-name">
 
-                <label for="email">Email Address</label>
-                <input type="text" name="email" id="email">
+                    <label for="email">Email Address</label>
+                    <input type="text" name="email" id="email">
 
-                <label for="company">Company Name</label>
-                <input type="text" name="company" id="company">
+                    <label for="company">Company Name</label>
+                    <input type="text" name="company" id="company">
 
-                <label for="industry">Industry</label>
-                <input type="text" name="industry" id="industry">
+                    <label for="industry">Industry</label>
+                    <input type="text" name="industry" id="industry">
 
-                <label for="inquire">How can we help you&quest;</label>
-                <textarea name="inquire" id="inquire"></textarea>
+                    <label for="inquire">How can we help you&quest;</label>
+                    <textarea name="inquire" id="inquire"></textarea>
 
-                <input type="submit" name="submit" id="submit" value="Submit">
-            </form>
+                    <input type="submit" name="submit" id="submit" value="Submit">
+                </form>
+            </section>
 
             <p>&copy; 2026 Vaanguard. All rights reserved.</p>
             <p>Email: <a href="mailto:info@vaanguard.com">info&commat;vaanguard.com </a></p>
